@@ -2,7 +2,7 @@ import pandas as pd
 import flet as ft
 
 # Carregar o arquivo Excel
-df = pd.read_excel(r"C:\Users\luzo.neto\Downloads\Rede_Coopcerto_base_completa.xlsx")
+df = pd.read_excel(r"Rede_Coopcerto_base_completa.xlsx")
 
 # Função para obter os valores únicos de uma coluna
 def obter_valores_unicos(coluna, filtro=None, filtro_coluna=None):
